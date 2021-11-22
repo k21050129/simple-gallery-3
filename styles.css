@@ -16,6 +16,7 @@ nav {
     font-size: larger;
 }
 
+# 下面是link的颜色，还有当鼠标悬停，link变为白色
 a:link {
     color: black;
 }
@@ -52,6 +53,7 @@ a:hover {
 .grid_cell {
     align-self: baseline;
 }
+# 上面这一组代码是指让不同尺寸的图片都能整齐排列
 
 @media (min-width: 600px) {
     #gallery { 
@@ -71,15 +73,18 @@ a:hover {
     }
   }
 
+# 下面应该是指index页面中图片的尺寸大小
 .gallery_thumb {
     width: 250px;
     object-fit: cover;
 }
 
+#下面应该是指点击图片后显示的网页中图片的尺寸大小
 #exhibit {
     width: 300px;
 }
 
+# 下面这几组，是指网页根据窗口的尺寸来灵活调整图片按几列进行排列
 @media (min-width: 600px) {
     #exhibit {
         width: 550px;
